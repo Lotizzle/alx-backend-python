@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-This module contains a coroutine called async_comprehension that takes no arguments.
+This module contains a coroutine called async_comprehension
+that takes no arguments.
 """
 
 from typing import List
 from asyncio import gather
 async_generator = __import__('0-async_generator').async_generator
+
 
 async def async_comprehension() -> List[float]:
     """
