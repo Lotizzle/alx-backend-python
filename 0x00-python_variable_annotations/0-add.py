@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-# This module contains a type-annotated function, add.
+"""
+This module contains a type-annotated function, add.
+"""
 
 
 def add(a: float, b: float) -> float:
