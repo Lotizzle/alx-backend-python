@@ -6,7 +6,8 @@ This module contains a type-annotated function with non-specific parameters
 
 from typing import Sequence, Any, Union
 
-def safe_first_element(lst: Sequence) -> Union[Any, None]:
+
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     This method returns the first element in a sequence or None.
     parameter: lst
