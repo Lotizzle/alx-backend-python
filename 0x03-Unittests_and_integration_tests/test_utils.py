@@ -33,7 +33,8 @@ class TestAccessNestedMap(unittest.TestCase):
         ({}, ("a",), "'a'"),
         ({"a": 1}, ("a", "b"), "'b'")
     ])
-    def test_access_nested_map_exception(self, nested_map, path, expected_error_message):
+    def test_access_nested_map_exception(self, nested_map,
+                                         path, expected_error_message):
         """
         Function to test AccessNestedMap exception error
         Parameters:
@@ -45,6 +46,7 @@ class TestAccessNestedMap(unittest.TestCase):
             access_nested_map(nested_map, path)
 
         self.assertEqual(str(context.exception), expected_error_message)
+
 
 class TestGetJson(unittest.TestCase):
     """ Class to test utils.get_json method """
