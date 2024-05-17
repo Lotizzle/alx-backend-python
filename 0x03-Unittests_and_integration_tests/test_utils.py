@@ -5,7 +5,7 @@ This module contains the test case for the utils module
 
 import unittest
 from parameterized import parameterized
-from unittest.mock import Mock, patch
+from unittest.mock import patch, Mock
 from utils import access_nested_map, get_json
 
 
