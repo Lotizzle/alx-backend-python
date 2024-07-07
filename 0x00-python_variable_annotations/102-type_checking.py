@@ -9,11 +9,13 @@ from typing import List, Tuple
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
-    Creates a list where each element in the original tuple is repeated 'factor' times.
+    Creates a list where each element in the
+    original tuple is repeated 'factor' times.
 
     Args:
         lst (Tuple[int, ...]): A tuple of integers to be zoomed.
-        factor (int): The number of times each element in the tuple should be repeated. Defaults to 2.
+        factor (int): The number of times each element in the
+        tuple should be repeated. Defaults to 2.
 
     Returns:
         List[int]: A list containing the zoomed elements.
